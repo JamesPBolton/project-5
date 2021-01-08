@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="png" sizes="16x16" href="favicon-16x16.png">
+  <title>James Bolton</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div id="navbar">
+      <a href="#home">
+        Home
+      </a>
+      <a href="#about">
+        About Me
+      </a>
+      <a href="#projects">
+        Projects
+      </a>
+      <a href="#skills">
+        Skills
+      </a>
+      <a href="#connect">
+        Connect With Me
+      </a>
+    </div>
+  </header>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+
+  <div id="home" class="div_home">
+    <h1>JAMES BOLTON</h1>
+    <h2>Junior Software Engineer</h2>
+  </div>
+
+  <div id="about" class="about">
+    <h2>About Me</h2>
+    <p>I've enjoyed an exciting career in Public Relations and my ambition now is to become a software engineer.</p>
+    <p>PR led me to the heart of companies such as Volkswagen and Renault, where I developed and implemented creative communication strategies that involved taking journalists to the biggest motor shows in the world and to car launches across Europe.</p> 
+    <p>One of the things I saw up close was the dramatic expansion of the IT capabilities of those companies.</p>
+    <p>That fed into my interest in technology and I decided to act on that by completing a course at General Assembly.</p>
+    <p>As I look to develop my career I’m aiming to bring together my experience in communications and my love of technology.</p>
+  
+    <button style="vertical-align:middle"><a href="JBCV.pdf" target="_blank"><span>Click for CV </span></a></button>
+    
+  </div>
+
+  <div id="projects" class="container-one">
+    <h2>Projects</h2>
+    <a href="https://jamespbolton.github.io/project-1/" target="_blank">Project 1 - Snake Game</a> 
+    <img src="https://i.imgur.com/2I07s1c.jpg" alt="Project1">
+    <a href="https://github.com/JamesPBolton/project-1" target="_blank">GitHub link</a>
+  </div>
+  <div class="container-one">
+    <a href="https://jamespbolton.github.io/project-2/" target="_blank">Project 2 - Bitcoin</a>
+    <img src="https://i.imgur.com/5ubE10p.jpg" alt="Project2">
+    <a href="https://github.com/JamesPBolton/project-2" target="_blank">GitHub link</a>
+  </div>
+  <div class="container-one"> 
+    <a href="https://greenworld-green.herokuapp.com/" target="_blank">Project 3 - GreenWorld</a>
+    <img src="https://i.imgur.com/Gc6cPXi.jpg" alt="Project3">
+    <a href="https://github.com/JamesPBolton/project-3" target="_blank">GitHub link</a>
+  </div>  
+  <div class="container-one">
+    <a href="https://poppins-books.herokuapp.com/" target="_blank">Project 4 - Poppins</a>
+    <img src="https://i.imgur.com/RP7qsNk.jpg" alt="Project4">
+    <a href="https://github.com/JamesPBolton/project-4" target="_blank">GitHub link</a>
+  </div>
+
+  <div id="skills" class="container-two">
+    <h2>Skills</h2>
+    <img src="https://i.imgur.com/dvGC2zm.png" class="icons">
+    <img src="https://i.imgur.com/J0ekU3i.png" class="icons">
+    <img src="https://i.imgur.com/Q5ZkxpZ.png" class="icons">
+    <img src="https://i.imgur.com/wuyiEHK.png" class="icons">
+    <img src="https://i.imgur.com/wJh8XKI.png" class="icons">
+    <img src="https://i.imgur.com/0iHnKtU.png" class="icons">
+    <img src="https://i.imgur.com/7gtGJHH.png" class="icons">
+    <img src="https://i.imgur.com/bvM7oRe.png" class="icons">
+    <img src="https://i.imgur.com/Jlj9JNf.png" class="icons">
+    <img src="https://i.imgur.com/Ohu9Jq4.png" class="icons">
+  </div>
+
+  <div id="skills" class="container-three">
+  <div><h2 id="connect" class="connect">Connect With Me</h2></div>
+  <div>
+    <button style="vertical-align:middle"><a href="mailto:copse2209@gmail.com?Subject=Web%20Contact" target="_top"><span>Send me an email! </span></a></button>
+  </div>
+  <div>
+    <a href="https://www.linkedin.com/in/j-bolton">
+      <img class="linked" src="https://i.imgur.com/a751aBi.png" alt="LinkedIn"> 
+    </a>
+  </div>
+  <div>
+  <a href="https://twitter.com/jboltn">
+    <img class="twitt" src="https://i.imgur.com/p7OUaJN.png" alt="Twitter"> 
+  </a>
+  </div>
+
+  <!--
+  <a href="https://github.com/JamesPBolton">
+    <img class="github" src="https://i.imgur.com/cU87u4i.png" alt="GitHub"> 
+  </a>
+  -->
+  </div>
+
+  <h3>James Bolton</h3>
+
+</body>
+
+</html>
