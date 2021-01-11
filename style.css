@@ -6,7 +6,7 @@ body {
 }
 
 a, h1, h2, h3, button, label, p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   color: rgb(12, 12, 112);
 }
 
@@ -25,7 +25,7 @@ h3, p {
 /* Navbar */
 #navbar {
   overflow: hidden;
-  background-color: rgb(146, 165, 228);
+  background-color: rgb(12, 12, 112);
   position: fixed;
   top: 0;
   width: 100%;
@@ -60,8 +60,6 @@ h3, p {
   margin: 60px 0px 60px 0px;
 }
 
-/* Button link to CV.pdf - see 'button', below */
-
 /* List of skillz */
 .icons {
   height: 45px;
@@ -72,59 +70,32 @@ h3, p {
   margin: 65px 0px 25px 0px;
 }
 
-/* Connect With Me */
+/* Connect */
 .container-three {
+  height: 250px;
   padding: 5px 0px 20px 0px;
   background-color: rgb(146, 165, 228);
+  background-image: url("https://i.imgur.com/Oo3FvyP.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top 250px;
 }
 
 .connect {
-  margin: 65px 0px 30px 0px;
+  margin: 50px 0px 30px 0px;
 }
 
-button {
-  border-radius: 4px;
-  background-color:rgb(242, 242, 242);
-  color: rgb(12, 12, 112);
-  text-align: center;
-  font-weight: bold;
-  font-size: 17px;
-  padding: 5px;
-  width: 250px;
-  transition: all 0.5s;
-}
-
-button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-button:hover span {
-  padding-right: 25px;
-}
-
-button:hover span:after {
-  opacity: 1;
-  right: 0;
+.email {
+  height: 7rem;
+  margin: 0px 25px 0px 24px; 
 }
 
 .linked {
-  height: 40px;
-  margin: 30px 0px 0px 0px; 
+  height: 7rem;
+  margin: 0px 0px 0px 0px; 
 }
 
 .twitt {
-  height: 75px;
-  margin: 15px 0px 0px 0px; 
+  height: 7rem;
+  margin: 0px 0px 0px 0px; 
 }
