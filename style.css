@@ -34,7 +34,7 @@ h3, p {
 
 #navbar a {
   display: inline-block;
-  color: #f2f2f2;
+  color: rgb(242, 242, 242);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -43,7 +43,7 @@ h3, p {
 
 #navbar a:hover {
   background-color: rgb(12, 12, 112);
-  color: rgb(226, 239, 244);
+  color: rgb(164, 200, 214);
 }
 
 .sticky {
@@ -69,12 +69,13 @@ h3, p {
 }
 
 .container-two {
-  margin: 65px 0px 0px 0px;
+  margin: 65px 0px 25px 0px;
 }
 
 /* Connect With Me */
 .container-three {
-  vertical-align: middle;
+  padding: 5px 0px 20px 0px;
+  background-color: rgb(146, 165, 228);
 }
 
 .connect {
@@ -83,7 +84,7 @@ h3, p {
 
 button {
   border-radius: 4px;
-  background-color: #96969f;
+  background-color:rgb(242, 242, 242);
   color: rgb(12, 12, 112);
   text-align: center;
   font-weight: bold;
@@ -127,10 +128,3 @@ button:hover span:after {
   height: 75px;
   margin: 15px 0px 0px 0px; 
 }
-
-/*
-.github {
-  height: 40px;
-  margin: 0px 0px -15px 30px; 
-}
-*/
