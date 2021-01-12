@@ -6,24 +6,24 @@ body {
 }
 
 a, h1, h2, h3, h5, button, label, p {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Exo 2', sans-serif;
   color: rgb(12, 12, 112);
 }
 
 h1 {
-  font-size: 50px;
-}
-
-h3 {
-  font-size: 50px;
-}
-
-h4 {
   font-size: 40px;
 }
 
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
 h5 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 p {
@@ -39,6 +39,7 @@ p {
   top: 0;
   width: 100%;
   height: 50px;
+  z-index: 9999;
 }
 
 #navbar a {
@@ -66,13 +67,15 @@ p {
 }
 
 .about {
-  margin: 60px 0px 60px 0px;
+  margin: 100px 50px 100px 50px;
+  
+
 }
 
 /* Carousel */
 
 .carousel {
-  width: 70%;
+  width: 50%;
   margin: auto;
 }
 
@@ -87,12 +90,15 @@ p {
 }
 
 .container-two {
-  margin: 65px 0px 25px 0px;
+  height: 200px;
+  margin: 90px 0px 0px 0px;
+  padding: 35px;
+  background-color: rgb(112, 128, 182);
 }
 
 /* Connect */
 .container-three {
-  height: 250px;
+  height: 280px;
   padding: 5px 0px 20px 0px;
   background-color: rgb(146, 165, 228);
   background-image: url("https://i.imgur.com/Oo3FvyP.jpg");
